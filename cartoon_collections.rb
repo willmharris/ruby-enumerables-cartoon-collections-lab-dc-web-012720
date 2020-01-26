@@ -15,7 +15,7 @@ end
 
 def find_the_cheese(array)
   array.detect do |string| 
-    if string == "cheddar" | "gouda" | "camembert" 
+    if string == "cheddar" | == "gouda" | == "camembert" 
       return string
     end 
   end 
